@@ -10,7 +10,11 @@ export class ExternalDashboardTileComponent {
   @Input() a: number;
   @Input() b: number;
   @Input() c: number;
+  test;
 
+  changeTestValue() {
+    console.log("Test value change!");
+  }
 }
 
 

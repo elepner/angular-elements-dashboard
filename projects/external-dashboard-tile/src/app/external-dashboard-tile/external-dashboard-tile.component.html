@@ -18,6 +18,10 @@
           <td>C</td>
           <td>{{c}}</td>
         </tr>
+        <tr>
+          <td><input [(ngModel)]="test" (ngModelChange)="changeTestValue()"/></td>
+          <td>{{test}}</td>
+        </tr>
       </table>
     </div>
   </div>
